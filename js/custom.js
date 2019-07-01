@@ -1,3 +1,6 @@
+/* Created by Marius Vinickis on 01/07/2019.
+   Copyright © 2019 Marius Vinickis. All rights reserved. */
+
 mapboxgl.accessToken = 'pk.eyJ1IjoidGhld2FuZGVyZXIiLCJhIjoiY2o0cmc3b3EzMzU2cDJ3bzBlbG4zdDk0NSJ9.N7TK1fq84boWEAxekFYv3A';
 var markerCount = 0;
 var bounds = [
