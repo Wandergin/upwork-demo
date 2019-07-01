@@ -22,7 +22,6 @@ button {
   margin: 60px 10px;
 }
 
-
 .marker {
   display: block;
   border: none;
@@ -32,86 +31,3 @@ button {
 
 
 
-  /* v3.0 only, will remove once solved the mobile interaction challenge */
-  #map {
-    width: 100%;
-  }
-
-  /* v3.0 only, will remove once solved the mobile interaction challenge */
-  .dynamic-listing-container {
-    display:none;
-  }
-
-
-@media only screen and (max-width:540px) {
-
-  .listings .item {
-    padding: 8px;
-  }
-  #map {
-    width:100%;
-  }
-  .listing-container {
-    width:33.33333%;
-  }
-
-  .dynamic-listing-container {
-    display:none;
-  }
-
-  .full-height-container {
-    background:transparent;
-    height: inherit;
-  }
-  .listing-container {
-    padding:0;
-    margin:0;
-    border-radius:0;
-    z-index:10;
-    position:fixed;
-  }
-
-  .listing-container {
-    bottom:auto;
-  }
-
-  .mb-watermark {
-    bottom:38%;
-    left:10px;
-    margin-left:0;
-  }
-  input[type='checkbox'] + label {
-    border:none;
-  }
-}
-
-@media only screen and (max-width:400px) {
-  .listing-container {
-    width:40%;
-  }
-
-  .popup-leftside {
-    display:inline;
-    width:auto;
-  }
-  .popup-rightside {
-    display:inline;
-    width:auto;
-  }
-  .mapboxgl-popup-content {
-    max-width: 190px;
-    padding: 1px 0;
-  }
-
-  .popup-image {
-    padding: 10% 0 0 0;
-    margin: 0;
-  }
-
-  .mapboxgl-popup-content div {
-    padding: 0;
-  }
-
-  #demo-button {
-  }
-}
